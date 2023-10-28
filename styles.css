@@ -1,0 +1,35 @@
+body {
+    background-image: url(assets/Blue\ Mountain.jpg);
+    background-size: cover;
+    font-family: 'VT323', monospace;
+    display: grid;
+    place-items: center;
+}
+
+#dynamicinfo {
+    color: black;
+}
+ 
+#dynamicinfo h2 {
+   margin-top: 10%; 
+   margin-bottom: 40%;
+}
+
+#staticlinks {
+    width: 40%;
+}
+
+#staticlinks a {
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    background-color: grey;
+    padding: 2.5%; 
+}
+
+#staticlinks a:hover {
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    background-color: lightcoral;
+}
